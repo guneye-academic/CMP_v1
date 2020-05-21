@@ -318,7 +318,7 @@ namespace CMP_v1
                         dt_IP = sw.ElapsedMilliseconds;
                     }
 
-
+                     
                     if (run_LR == 1)
                     {
                         sw_LR.Start();
