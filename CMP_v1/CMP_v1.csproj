@@ -5,4 +5,14 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Gurobi80.NET">
+      <HintPath>C:\gurobi801\win64\bin\Gurobi80.NET.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
